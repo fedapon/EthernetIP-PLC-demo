@@ -1,0 +1,18 @@
+{
+  "name": "ethernetip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethernet-ip": "^1.2.5",
+    "express": "^4.17.1",
+    "st-ethernet-ip": "^2.4.3"
+  }
+}
